@@ -1,0 +1,97 @@
+h1  {
+    width: 21%;
+    background-color: #4aaaa5;
+    height: 60px;
+    margin-bottom: 0px;
+    margin-left: 13%;
+    
+    
+    
+}
+nav { 
+    width:30%;
+    margin-top: 0px;
+    float: right;
+    margin-bottom: 0px;
+    margin-left: 13%;
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    border: 2px solid black;
+    background-color: white;
+    width: 960px;
+    margin-top: 90px;
+    border: 5px solid #dddddd;
+    
+   
+}
+
+.top {
+    background-image: url("dark-grey-terrazzo.png");
+    height: 900px;
+    border: 5px solid #dddddd;
+    
+   
+}
+
+
+div.text {
+    background-color:#ffffff;
+    margin-left: 14%;
+    display: inline-block;
+    margin-top: 100px;
+    width:960px;
+    padding:10px;
+    border: 5px solid #dddddd;
+}
+
+
+img {
+    float: left;
+    margin-left:10px;
+    margin-right: 10px;
+}
+h2 { 
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-family: sans-serif;
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    height: 50px;
+    color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+h6 {
+    text-align: center;
+    margin-top: 10px;
+  
+    
+}
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    .container {
+      background-color: lightblue;
+      color: darkblue;
+
+    }
+    
+    h1 { 
+        font-size: 20px;
+         /* Background image will change width will be 600px */
+    
+    }
+    .top { 
+        background-image: url("wheat.png")
+    }
+
+}
