@@ -21,6 +21,10 @@ footer {
   z-index: 3;
   
 }
+#jumbo { 
+    width: 100%;
+
+}
 
 @media screen and (max-width: 1000px) {
     /* The body's bg color will be #333 */
