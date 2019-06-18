@@ -96,12 +96,6 @@ h6 {
     
 }
 @media screen and (max-width: 1000px) {
-    /* The body's bg color will be #333 */
-    .container {
-      background-color: lightblue;
-      color: darkblue;
-
-    }
     
     h1 { 
         font-size: 20px;

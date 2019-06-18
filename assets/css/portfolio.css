@@ -57,3 +57,21 @@ footer {
   z-index: 3;
   
 }
+
+@media screen and (max-width: 1000px) {
+    /* The body's bg color will be #333 */
+    
+    h1 { 
+        font-size: 20px;
+         /* Background image will change */
+    
+    }
+    body { 
+        background-image: url("wheat.png")
+    }
+    }
+    /* Animation */
+@keyframes top {
+    from {color: darkblue;}
+    to {color:  orangered;}
+}
