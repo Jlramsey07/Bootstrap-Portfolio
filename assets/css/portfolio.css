@@ -69,6 +69,19 @@ footer {
     body { 
         background-image: url("wheat.png")
     }
+
+    .form { 
+        height: 980px;
+    }
+
+    h3 {
+        z-index: 2;
+        margin-top: 10%;
+        position: absolute;
+        border: 1px solid #4aaaa5;
+        color: white;
+        background: #4aaaa5;
+        width: 22.5%;
     }
     /* Animation */
 @keyframes top {
